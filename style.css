@@ -4,10 +4,10 @@ h1{
   margin-right: auto;
   width: 10em;
   font: 2em Arial, sans-serif;
-  text-shadow: black 0 0 2px;
+  text-shadow: black 0 0 5px;
   }
 body{
-  background-image: url(images/bg.jpg);
+  background-image: url(images/1.png);
   background-size: 100%;
   margin: 0;
   padding: 0;
@@ -53,4 +53,11 @@ a{
 }
 img{
   flex: none;
+}
+.imagetip span{
+    visibility: hidden;
+    position: absolute;
+  }
+.imagetip:hover span{
+visibility: visible;
 }
