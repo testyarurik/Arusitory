@@ -7,6 +7,17 @@
   <link href="style.css" rel="stylesheet" type="text/css"/>
   <base target="_blank">
   <h1>Arthur Tovmasyan</h1>
+<script>
+function verocultar() {
+     var c=document.getElementById("phone")
+     if(c.innerHTML=='+79604789908') {
+          c.innerHTML='************';
+     } else {
+          c.innerHTML='+79604789908';
+     }
+     return false;
+}
+</script>
 </head>
 
   <body>
@@ -23,13 +34,13 @@
       <div class="str">Shikimori:</div>
     </div>
     <div class="right">
-      <div class="str imagetip"><a id="imagetip" href="#">Arthur Tovmasyan<span><img class="alignnone" src="images/Arur.jpg" width="273" height="400"/></span></a></div>
+      <div class="str imagetip">Arthur Tovmasyan<span><img class="alignnone" src="images/Arur.jpg" width="273" height="400"/></span></div>
       <div class="str">23</div>
       <div class="str">16.12.1995</div>
       <div class="str">Male</div>
       <div class="str">Russia Federation, Krasnodar</div>
       <div class="str">Tag1612</div>
-      <div class="str">+79604789908</div>
+      <div class="str" id='phone'onclick="verocultar();">Show/Hide</a></div>
       <div class="str">Secondary special education</div>
       <div class="str"><a href="https://shikimori.org/testy_arurik">testy_arurik</a></div>
     </div>
